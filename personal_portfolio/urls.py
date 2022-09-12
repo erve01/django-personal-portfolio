@@ -20,9 +20,6 @@ from django.conf import settings
 from portfolio import views
 from django.urls import include
 
-# id = erve
-# pwb = erve01
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name="home"),
